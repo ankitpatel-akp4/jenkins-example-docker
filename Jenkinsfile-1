@@ -6,6 +6,8 @@ pipeline {
     stage('Test') {
       steps {
         sh 'java --version'
+        sh 'pwd'
+sh 'mvn -v'
       }
     }
   }
